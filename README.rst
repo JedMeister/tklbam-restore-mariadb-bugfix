@@ -1,6 +1,15 @@
 TKLBAM hook script to work around an issue migrating MariaDB databases
 ======================================================================
 
+**[UPDATE]**: An updated `TKLBAM package`_ for v17.x has been released. Please
+install that instead of following these instructions. The updated package will
+be built for v18.x as well, and will be pushed to both v17.x (bullseye) and
+v18.x (bookworm) apt repos as some point (soon hopefully).
+
+Please disregard the rest of these instructions.
+
+----
+
 It has been bought to my attention that migrating data via TKLBAM - from
 v16.x or earlier will error when restoring the databases. The specific error
 message is::
@@ -51,3 +60,4 @@ or as a `GitHub Issue`_ (on our consolidated issue tracker).
 .. _forums: https://www.turnkeylinux.org/forum/support
 .. _instructions to get approved: https://www.turnkeylinux.org/forum/general/tue-20230418-1616/post-thread-if-you-are-awaiting-account-approval
 .. _GitHub Issue: https://github.com/turnkeylinux/tracker/issues
+.. _TKLBAM Package: https://github.com/turnkeylinux/tklbam/releases/tag/v1.4.3.2
