@@ -1,3 +1,5 @@
+[update dec 23]: this hook script is now a part of TKLBAM
+
 TKLBAM hook script to work around an issue migrating MariaDB databases
 ======================================================================
 
